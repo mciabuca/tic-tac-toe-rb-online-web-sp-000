@@ -9,12 +9,14 @@
     [6, 4, 2]
   ]
 
-def display_board(board)
-  puts " #{board[0]} | #{@board[1]} | #{@board[2]} "
+def display_board(boards)
+
+  puts " #{boards[0]} | #{boards[1]} | #{boards[2]} ";
   puts "-----------"
-  puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
+  puts " #{boards[3]} | #{boards[4]} | #{boards[5]} ";
   puts "-----------"
-  puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
+  puts " #{boards[6]} | #{boards[7]} | #{boards[8]} ";
+
 end
 
 def input_to_index(user_input)
