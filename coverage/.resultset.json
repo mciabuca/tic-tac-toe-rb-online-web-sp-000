@@ -2,12 +2,9 @@
   "RSpec": {
     "coverage": {
       "/home/elegant-directory-2738/tic-tac-toe-rb-online-web-sp-000/lib/tic_tac_toe.rb": [
-        1,
         null,
         null,
         1,
-        null,
-        null,
         null,
         null,
         null,
@@ -18,6 +15,6 @@
         null
       ]
     },
-    "timestamp": 1593828306
+    "timestamp": 1593828336
   }
 }
