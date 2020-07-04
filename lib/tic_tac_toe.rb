@@ -112,7 +112,17 @@ def winner(board)
     end
 end
 
-def play()
+def play
+  until over?(board) == true
+    turn
+  end
+
+  if won?(board)
+    puts "Congratulations #{winner}!"
+  elsif draw?(board)
+    puts "Cat's Game!"
+  end
+end
 
 
 
